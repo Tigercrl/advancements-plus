@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "entered_end": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/end_stone_bricks.png",
+    "description": {
+      "translate": "advancements.ap.end.root.description",
+      "fallback": "The end or the beginning?",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ap.end.root.title",
+      "fallback": "Mysterious abyss of silence",
+      "color": "dark_purple"
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/stone.png",
+    "description": {
+      "translate": "advancements.ap.minecraft.root.description",
+      "fallback": "This is a story about Steve...",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ap.minecraft.root.title",
+      "fallback": "Minecraft",
+      "color": "white",
+      "bold": true
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

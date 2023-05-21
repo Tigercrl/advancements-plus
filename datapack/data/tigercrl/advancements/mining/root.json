@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "stone": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:stone_crafting_materials"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "description": {
+      "translate": "advancements.ap.mining.root.description",
+      "fallback": "In the gorgeous world underground...",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.mining.root.title",
+      "fallback": "Deep into the ground",
+      "color": "gray"
+    }
+  },
+  "requirements": [
+    [
+      "stone"
+    ]
+  ]
+}

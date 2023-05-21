@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/crimson_planks.png",
+    "description": {
+      "translate": "advancements.ap.nether.root.description",
+      "fallback": "Blood, lava and grudge",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ap.nether.root.title",
+      "fallback": "The frightful bloodcurdling hell",
+      "color": "dark_red"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ]
+}

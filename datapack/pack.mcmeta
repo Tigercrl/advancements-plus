@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 12,
+    "description": [
+      {
+        "translate": "dataPack.ap.description",
+        "fallback": "Added 5000+ advancements!",
+        "color": "#7fffaa"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "v1.0-1.19.4 | By Tigercrl",
+        "color": "#808189"
+      }
+    ]
+  }
+}

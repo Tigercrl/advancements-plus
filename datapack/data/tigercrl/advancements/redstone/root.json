@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/polished_andesite.png",
+    "description": {
+      "translate": "advancements.ap.redstone.root.description",
+      "fallback": "Machines and contraptions",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.redstone.root.title",
+      "fallback": "Redstone Technology",
+      "color": "red"
+    }
+  },
+  "requirements": [
+    [
+      "redstone"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "consumed_item": {
+      "conditions": {},
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/hay_block_top.png",
+    "description": {
+      "translate": "advancements.ap.husbandry.root.description",
+      "fallback": "Farming, harvest and animals",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.husbandry.root.title",
+      "fallback": "Huspandry",
+      "color": "yellow"
+    }
+  },
+  "requirements": [
+    [
+      "consumed_item"
+    ]
+  ]
+}

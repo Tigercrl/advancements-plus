@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "logs_that_burn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/dirt.png",
+    "description": {
+      "translate": "advancements.ap.adventure.root.description",
+      "fallback": "The whole new world of Minecraft",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.adventure.root.title",
+      "fallback": "Adventure",
+      "color": "dark_blue"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

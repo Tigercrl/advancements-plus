@@ -1,0 +1,65 @@
+{
+  "criteria": {
+    "lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "enchanting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanting_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "anvil": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/oak_planks.png",
+    "description": {
+      "translate": "advancements.ap.enchanting.root.description",
+      "fallback": "Enhance your weapons and tools",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.enchanting.root.title",
+      "fallback": "Enchanting",
+      "color": "light_purple"
+    }
+  },
+  "requirements": [
+    [
+      "lapis_lazuli",
+      "enchanting_table",
+      "anvil"
+    ]
+  ]
+}

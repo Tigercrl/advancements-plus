@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "logs": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "logs_that_burn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/birch_planks.png",
+    "description": {
+      "translate": "advancements.ap.overworld.root.description",
+      "fallback": "The story starts from here...",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:birch_sapling"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ap.overworld.root.title",
+      "fallback": "A world of infinite possibilities",
+      "color": "dark_green"
+    }
+  },
+  "requirements": [
+    [
+      "logs"
+    ]
+  ]
+}

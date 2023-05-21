@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "swords": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:swords"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/stone_bricks.png",
+    "description": {
+      "translate": "advancements.ap.weaponry.root.description",
+      "fallback": "The combat never ends",
+      "color": "reset"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ap.weaponry.root.title",
+      "fallback": "Weaponry",
+      "color": "blue"
+    }
+  },
+  "requirements": [
+    [
+      "swords"
+    ]
+  ]
+}
