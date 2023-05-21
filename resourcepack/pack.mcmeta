@@ -1,0 +1,19 @@
+{
+   "pack":{
+      "pack_format": 13,
+      "description": [
+         {
+           "translate": "resourcePack.ap.description",
+           "fallback": "Translates for Advancements+",
+           "color": "#7fffaa"
+         },
+         {
+           "text": "\n"
+         },
+         {
+           "text": "v1.0-1.19.4 | By Tigercrl",
+           "color": "#808189"
+         }
+      ]
+   }
+}
